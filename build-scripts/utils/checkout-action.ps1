@@ -6,7 +6,7 @@ param(
     [int]$fetchDepth = 1,
     [switch]$fetchTags,
     [string]$filter = $null,
-    [string]$gitServerUrl = "https://Sitecore-PD@dev.azure.com/Sitecore-PD/Products/_git/",
+    [string]$gitServerUrl = "https://github.com/",
     [switch]$reclone
 )
 
